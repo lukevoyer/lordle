@@ -5,7 +5,7 @@ lordle is an Android focused version of [powerlanguage's](https://www.powerlangu
 <img src="https://i.imgur.com/oVLf4Aj.png" alt="drawing" width="400"/>
 
 ## Added Features
-* Since this is mostly revolved around being a copy of Wordle that doesn't reuire internet, games are shared by seed instead of by http link. When results are shared they dipaly as such:
+* Since this is mostly revolved around being a copy of Wordle that doesn't require internet, games are shared by seed instead of by http link. When results are shared they dipaly as such:
 
 ```bash
 Lordle c2xpbmc 6/6
