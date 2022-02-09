@@ -45,5 +45,5 @@ Otherwise a version of the apk will be included in Releases.
 View license at the link below!
 [MIT](https://choosealicense.com/licenses/mit/)
 
-##Contact Me!
+## Contact Me!
 You can contact me at [@lukevoyer](https://twitter.com/lukevoyer) on Twitter or e-mail me at [lukevoyer1@gmail.com](mailto:lukevoyer1@gmail.com)
