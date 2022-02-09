@@ -1,0 +1,72 @@
+{
+  "name": "com.example.lordle",
+  "displayName": "Lordle",
+  "version": "1.0.0",
+  "description": "A sample Apache Cordova application that responds to the deviceready event.",
+  "main": "index.js",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Apache Cordova Team",
+  "license": "Apache-2.0",
+  "cordova": {
+    "platforms": [
+      "android"
+    ],
+    "plugins": {
+      "cordova-universal-clipboard": {}
+    }
+  },
+  "private": false,
+  "dependencies": {
+    "@awesome-cordova-plugins/clipboard": "^5.39.0",
+    "@react-native-community/clipboard": "^1.5.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.0",
+    "@types/node": "^16.11.17",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "copy-to-clipboard": "^3.3.1",
+    "cordova-universal-clipboard": "^0.1.0",
+    "gh-pages": "^3.2.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-native-web": "^0.17.5",
+    "react-scripts": "5.0.0",
+    "react-use-clipboard": "1.0.7",
+    "typescript": "^4.5.4",
+    "web-vitals": "^2.1.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "clipboard": "^2.0.10",
+    "cordova-android": "^10.1.1"
+  }
+}
